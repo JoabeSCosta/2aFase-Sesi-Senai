@@ -1,0 +1,16 @@
+.imagens-body{
+    width: 210px;
+    
+}
+
+.body-container{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    font-family: 'MortalKombatFonte';
+}
+
+@font-face {
+    font-family: 'MortalKombatFonte';
+    src: url('/fonts/MK4.TTF')
+}
