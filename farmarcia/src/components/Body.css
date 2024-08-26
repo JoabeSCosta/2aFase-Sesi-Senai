@@ -1,0 +1,35 @@
+.container-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-sobre1{
+    font-size: 50px;
+    padding: 10px;
+    color: var(--cor-4);
+}
+.body-sobre2{
+    font-size: 20px;
+    width: 50%;
+    padding: 20px;
+    color: var(--cor-1);
+    text-align: center;
+}
+.body-imgPlaca{
+    width: 50%;
+}
+
+.body-historia1{
+    font-size: 50px;
+    padding: 10px;
+    color: var(--cor-4);
+    
+}
+.body-historia2{
+    font-size: 20px;
+    width: 50%;
+    padding: 20px;
+    color: var(--cor-1);
+    text-align: center;
+}
