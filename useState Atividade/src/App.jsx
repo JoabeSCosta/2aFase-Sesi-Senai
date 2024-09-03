@@ -1,13 +1,13 @@
 import './App.css'
-import Ponderacoes from './components/Ponderacoes'
-import Porco from './components/Porco'
+import Ponderacoes from './pages/Ponderacoes'
+import Porco from './pages/Porco'
 
 function App() {
 
   return (
     <>
       <Porco />
-      <Ponderacoes />
+      {/* <Ponderacoes /> */}
     </>
   )
 }
