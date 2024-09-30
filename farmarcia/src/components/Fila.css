@@ -1,0 +1,59 @@
+:root{
+        --cor-1: #e23e57;
+        --cor-2: #ffffff;
+        --cor-3: #e96a7e;
+        --cor-4: #ce1f3a;
+        --cor-5: #e6e6e6;
+        --cor-6: #ef97a4;
+    }
+.bttn-fila {
+    background-color: var(--cor-1);
+    color: var(--cor-2);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bttn-fila:hover {
+    background-color: var(--cor-3);
+    color: var(--cor-4);
+}
+
+.bttn-fila:active {
+    background-color: var(--cor-5);
+    color: var(--cor-6);
+}
+
+.container-bttn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+}
+
+.container-fila{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+h2{
+    color: var(--cor-1);
+    font-size: 24px;
+    text-align: center;
+
+}
+h3{
+    color: var(--cor-4);
+    font-size: 20px;
+    text-align: center;
+}
