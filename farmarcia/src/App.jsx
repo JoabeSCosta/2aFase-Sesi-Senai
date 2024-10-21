@@ -1,9 +1,7 @@
 import './App.css'
 import Body from './components/Body'
-import Contato from './components/Contato'
-import Fila from './components/Fila'
 import Header from './components/Header'
-import Produtos from './components/Produtos'
+import Contato from './components/Contato'
 
 function App() {
 
@@ -11,8 +9,6 @@ function App() {
     <>
       <Header />
       <Body />
-      <Produtos />
-      <Fila />
       <Contato />
     </>
   )

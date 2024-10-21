@@ -1,6 +1,7 @@
 import React from 'react'
 import './Body.css'
-
+import Fila from './Fila'
+import Produtos from './Produtos'
 function Body() {
   return (
     <div className='container-body'>
@@ -15,7 +16,10 @@ function Body() {
     <label className='body-historia2'>
     A Farmárcia foi reinventada por Márcia Maria Mirenda, uma empreendedora apaixonada e visionária com uma     formação em administração e uma paixão por design e tecnologia. Com 32 anos e uma carreira marcada por  desafios e conquistas, Márcia trouxe uma nova vida para o legado da farmácia de seu tio Mário, que sempre foi    um pilar na comunidade local.</label>
 
+    <Produtos />
+    <Fila />
     </div>
+
   )
 }
 

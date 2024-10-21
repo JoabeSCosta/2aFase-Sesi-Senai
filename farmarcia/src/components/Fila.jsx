@@ -43,6 +43,7 @@ function Fila() {
 
  return (
      <>
+        <h2 className='body-sobre1'>Fila</h2>
      <div className='container-bttn'>
          <button className='bttn-fila' onClick={atenderCliente}>Atender</button>
          <button className='bttn-fila' onClick={gerarSenha}>Senha Normal</button>
